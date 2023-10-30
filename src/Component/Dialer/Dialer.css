@@ -1,0 +1,21 @@
+.d {
+  padding: 0.5em;
+  margin-top: 0.4em;
+  border: 1px solid black;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  flex-wrap: wrap;
+}
+
+.d button {
+  width: 200px;
+  height: 30px;
+  color: white;
+  background-color: #4267b2;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.join {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fjoin {
+  border: 1px solid gray;
+  width: 60%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.fjoin input {
+  height: 10%;
+  width: 80%;
+  padding: 1em;
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+
+.fjoin button {
+  height: 50px;
+  width: 200px;
+  padding: 1em;
+  color: white;
+  background-color: orangered;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
